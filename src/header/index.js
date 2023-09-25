@@ -21,10 +21,10 @@ const Headermain = () => {
             {logotext}
           </Link>
           <div className="d-flex align-items-center">
-          <Themetoggle />
-          <button className="menu__button  nav_ac" onClick={handleToggle}>
-            {!isActive ? <VscClose /> : <VscGrabber />}
-          </button>
+            <Themetoggle />
+            <button className="menu__button  nav_ac" onClick={handleToggle} style={{ backgroundColor: 'rgba(0, 0, 0, 0)' }}>
+              {!isActive ? <VscClose /> : <VscGrabber />}
+            </button>
           
           </div>
         </div>

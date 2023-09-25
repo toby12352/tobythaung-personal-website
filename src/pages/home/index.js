@@ -27,6 +27,7 @@ export const Home = () => {
                   <Typewriter
                     options={{
                       strings: [
+                        introdata.animated.zero,
                         introdata.animated.first,
                         introdata.animated.second,
                         introdata.animated.third,
@@ -34,6 +35,7 @@ export const Home = () => {
                       autoStart: true,
                       loop: true,
                       deleteSpeed: 10,
+                      typeSpeed: 0.1
                     }}
                   />
                 </h1>

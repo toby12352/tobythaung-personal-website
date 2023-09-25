@@ -7,16 +7,17 @@ const meta = {
 const introdata = {
     title: "I’m Toby",
     animated: {
+        zero: "My Interest Roles:",
         first: "Full-Stack Developer",
         second: "Backend Developer",
         third: "Frontend Developer",
     },
     description: "Welcome to my portfolio website! I'm a passionate Full Stack Developer with a love for crafting web experiences that are both beautiful and functional.",
-    your_img_url: "https://cdn.wallpapersafari.com/67/72/a9Jykb.jpg",
+    your_img_url: "https://images.hdqwalls.com/wallpapers/waves-4k-wm.jpg",
 };
 
 const dataabout = {
-    title: "Abit about my self",
+    title: "Abit about myself",
     aboutme: "A recent graduate with a B.S in Computer Science with a focus in Artificial Intelligence. I have held a lot of roles during my academic journey, including serving as an undergraduate learning assistant and a mentor for my fellow students. At the moment, I'm working as a EECS Special Project Assistant at Oregon State University, mainly focusing on different parts of a comprehensive notebook website. My role serves as a full stack developer for the website from initial implementation through to successful deployment.",
 };
 const worktimeline = [{
@@ -46,29 +47,27 @@ const skills = [{
     },
     {
         name: "Javascript",
+        value: 75,
+    },
+    {
+        name: "MySQL",
         value: 70,
     },
     {
         name: "React",
         value: 60,
-    },
-    {
-        name: "AWS"
-    },
+    }
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Amazon Web Services (EC2, RDS)"
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Docker"
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+        title: "Node.js"
+    }
 ];
 
 const dataportfolio = [{
