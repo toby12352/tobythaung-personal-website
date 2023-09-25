@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/tobythaung-personal-website/static/css/main.507a3381.css",
+    "main.js": "/tobythaung-personal-website/static/js/main.b033b9ea.js",
+    "index.html": "/tobythaung-personal-website/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.507a3381.css",
+    "static/js/main.b033b9ea.js"
+  ]
+}
