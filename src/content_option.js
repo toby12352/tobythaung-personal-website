@@ -1,16 +1,16 @@
 const logotext = "TAT";
 const meta = {
     title: "Tun Aung(Toby) Thaung",
-    description: "I’m Toby data scientist _ Full stack devloper,currently working in Oregon State University",
+    description: "I’m Toby, a software devloper,currently working in Oregon State University",
 };
 
 const introdata = {
-    title: "I’m Toby",
+    title: "I’m Tun Aung(Toby) Thaung",
     animated: {
         zero: "Interested Roles:",
         first: "Full-Stack Developer",
-        second: "Backend Developer",
-        third: "Frontend Developer",
+        second: "Back-End Developer",
+        third: "Front-End Developer",
     },
     description: "Welcome to my portfolio website! I'm a passionate Full Stack Developer with a love for crafting web experiences that are both beautiful and functional.",
     your_img_url: "https://images.hdqwalls.com/wallpapers/waves-4k-wm.jpg",
@@ -59,7 +59,7 @@ const skills = [{
     }
 ];
 
-const services = [{
+const tools = [{
         title: "Amazon Web Services (EC2, RDS)"
     },
     {
@@ -108,7 +108,7 @@ export {
     dataportfolio,
     worktimeline,
     skills,
-    services,
+    tools,
     introdata,
     contactConfig,
     socialprofils,
