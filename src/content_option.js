@@ -1,16 +1,16 @@
 const logotext = "TAT";
 const meta = {
     title: "Tun Aung(Toby) Thaung",
-    description: "I’m Toby data scientist _ Full stack devloper,currently working in Berlin",
+    description: "I’m Toby, a software devloper,currently working in Oregon State University",
 };
 
 const introdata = {
-    title: "I’m Toby",
+    title: "I’m Tun Aung(Toby) Thaung",
     animated: {
-        zero: "My Interest Roles:",
+        zero: "Interested Roles:",
         first: "Full-Stack Developer",
-        second: "Backend Developer",
-        third: "Frontend Developer",
+        second: "Back-End Developer",
+        third: "Front-End Developer",
     },
     description: "Welcome to my portfolio website! I'm a passionate Full Stack Developer with a love for crafting web experiences that are both beautiful and functional.",
     your_img_url: "https://images.hdqwalls.com/wallpapers/waves-4k-wm.jpg",
@@ -59,7 +59,7 @@ const skills = [{
     }
 ];
 
-const services = [{
+const tools = [{
         title: "Amazon Web Services (EC2, RDS)"
     },
     {
@@ -78,7 +78,7 @@ const dataportfolio = [
     },
     {
         img: "https://www.payoda.com/wp-content/uploads/2021/05/1_mbP4Bjrs8Hshx7IgjsUNSg.jpeg",
-        description: "Tarpaulin Restful API is a project aimed at enhancing database security and scalability using cutting-edge technologies. Used Docker containerization for a MongoDB image to optimize the database deployment and scalability.",
+        description: "Tarpaulin Restful API is a lightweight course management tool aimed at enhancing database security and scalability using cutting-edge technologies.",
         link: "https://github.com/toby12352/Tarpaulin-Restful-API",
     },
     {
@@ -100,8 +100,8 @@ const contactConfig = {
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_ox69sum",
-    YOUR_TEMPLATE_ID: "template_vhkl7cp",
-    YOUR_USER_ID: "Tun Aung Thaung",
+    YOUR_TEMPLATE_ID: "template_xa6sgr1",
+    YOUR_PUBLIC_KEY: "QLf8DwQXA5_NmsPZL",
 };
 
 const socialprofils = {
@@ -114,7 +114,7 @@ export {
     dataportfolio,
     worktimeline,
     skills,
-    services,
+    tools,
     introdata,
     contactConfig,
     socialprofils,
