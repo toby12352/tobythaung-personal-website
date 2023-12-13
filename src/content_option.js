@@ -96,7 +96,7 @@ const dataportfolio = [
         link: "https://verdant-cupcake-e6a27a.netlify.app/"
     },
     {
-        img: "https://static.vecteezy.com/system/resources/previews/009/205/984/non_2x/icon-outline-weather-and-weather-forecast-black-lines-on-a-white-background-free-vector.jpg",
+        img: "https://png.pngtree.com/png-clipart/20230923/original/pngtree-computer-cloud-theme-white-background-with-set-of-black-icons-vector-png-image_12843146.png",
         description: "An android application, designed to deliver daily weather forecasts to users. The users can search weather forecast for 5 days with data every 3 hours by geographic coordinates.",
         link: "https://github.com/toby12352/OpenWeather",
     },
