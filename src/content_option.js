@@ -1,7 +1,7 @@
 const logotext = "TAT";
 const meta = {
     title: "Tun Aung(Toby) Thaung",
-    description: "I’m Toby, a software devloper,currently working in Oregon State University",
+    description: "Hello, I’m Toby, a software devloper,currently working for a research in Oregon State University",
 };
 
 const introdata = {
@@ -18,11 +18,12 @@ const introdata = {
 
 const dataabout = {
     title: "Abit about myself",
-    aboutme: "A recent graduate with a B.S in Computer Science with a focus in Artificial Intelligence. I have held a lot of roles during my academic journey, including serving as an undergraduate learning assistant and a mentor for my fellow students. At the moment, I'm working as a EECS Special Project Assistant at Oregon State University, mainly focusing on different parts of a comprehensive notebook website. My role serves as a full stack developer for the website from initial implementation through to successful deployment.",
+    aboutme: "An experienced recent graduate with a B.S in Computer Science with a passion for full-stack development. During the school years, I've served as an undergraduate learning assistant and a mentor for my fellow students and juniors. At the present, I'm working as a Research Software Engineer at Oregon State University, mainly focusing on backend features of an OpenAI powered virtual-notebook website. We are at the initial phase of software development and preparing to deploy by the end of February.",
 };
+
 const worktimeline = [{
-        jobtitle: "EECS Special Project Assistant",
-        where: "Oregon State University, OR",
+        jobtitle: "Research Software Engineer",
+        where: "Corvallis, Oregon",
         date: "August 2023 - Present",
     },
     {
@@ -32,62 +33,85 @@ const worktimeline = [{
     },
     {
         jobtitle: "Undergraduate Learning Assistant",
-        where: "Oregon State University, OR",
+        where: "Corvallis, Oregon",
         date: "Jan 2023 - Jun 2023",
     },
 ];
 
-const skills = [{
+const skills = [
+    {
         name: "Python",
         value: 90,
     },
     {
-        name: "C++",
+        name: "Node.js",
+        value: 88,
+    },
+    {
+        name: "React.js",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "HTML",
+        value: 80,
+    },
+    {
+        name: "CSS",
+        value: 80   ,
+    },
+    {
+        name: "C++",
         value: 75,
     },
     {
         name: "MySQL",
         value: 70,
-    },
-    {
-        name: "React",
-        value: 60,
     }
 ];
 
-const tools = [{
-        title: "Amazon Web Services (EC2, RDS)"
+const tools = [
+    {
+        title: "Amazon Web Services (EC2, RDS, Route 53)"
+    },
+    {
+        title: "OpenAI API (GPT-3.5-Turbo, GPT-4, GPT-4-Vision)"
+    },
+    {
+        title: "Google Cloud"
     },
     {
         title: "Docker"
-    },
-    {
-        title: "Node.js"
     }
 ];
 
 const dataportfolio = [
     {
-        img: "https://unblast.com/wp-content/uploads/2018/12/IOS-Weather-Icons-3.jpg",
+        img: "https://static.vecteezy.com/system/resources/previews/012/581/533/non_2x/black-and-white-notebook-01-vector.jpg",
+        description: "Virtual notebook website fully powered by OpenAI (Since website is unsecured right now, please refrain from putting in sensitive information.)",
+        link: "http://54.70.119.142:3000/"
+    },
+    {
+        img: "https://i.pinimg.com/736x/98/92/e8/9892e8d61dc1707bc039bc9fc602b333.jpg",
+        description: "Interactable website built using React & Three.js",
+        link: "https://verdant-cupcake-e6a27a.netlify.app/"
+    },
+    {
+        img: "https://static.vecteezy.com/system/resources/previews/009/205/984/non_2x/icon-outline-weather-and-weather-forecast-black-lines-on-a-white-background-free-vector.jpg",
         description: "An android application, designed to deliver daily weather forecasts to users. The users can search weather forecast for 5 days with data every 3 hours by geographic coordinates.",
         link: "https://github.com/toby12352/OpenWeather",
     },
     {
-        img: "https://www.payoda.com/wp-content/uploads/2021/05/1_mbP4Bjrs8Hshx7IgjsUNSg.jpeg",
+        img: "https://img.freepik.com/premium-vector/cloud-database-hand-drawn-outline-doodle-icon-cloud-computing-cloud-storage-computing-platform-concept_107173-17575.jpg",
         description: "Tarpaulin Restful API is a lightweight course management tool aimed at enhancing database security and scalability using cutting-edge technologies.",
         link: "https://github.com/toby12352/Tarpaulin-Restful-API",
     },
     {
-        img: "https://t3.ftcdn.net/jpg/05/90/75/40/360_F_590754013_CoFRYEcAmLREfB3k8vjzuyStsDbMAnqC.jpg",
+        img: "https://static.vecteezy.com/system/resources/previews/027/739/083/original/simple-film-camera-icon-movie-camera-vector.jpg",
         description: "An android application that provides users with trending rich movie and series data in a collaborative, team-oriented environment.",
         link: "https://github.com/toby12352/Eivom",
     },
     {
-        img: "https://ih1.redbubble.net/image.3783319505.9361/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg",
+        img: "https://img.freepik.com/premium-vector/thin-line-teamwork-icon-like-virtual-webinar-chatroom-simple-outline-trend-modern-thought-logotype-graphic-lineart-stroke-art-design-isolated-white-concept-three-people-with-speechbubble_995545-40.jpg?w=2000",
         description: "A simple groupchatroom for every users. No need to sign up!",
         link: "https://github.com/toby12352/react-chatroom"
     }
