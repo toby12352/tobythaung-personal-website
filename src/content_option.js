@@ -13,7 +13,9 @@ const introdata = {
         third: "Front-End Developer",
     },
     description: "Welcome to my portfolio website! I'm a passionate Full Stack Developer with a love for crafting web experiences that are both beautiful and functional.",
-    your_img_url: "https://images.hdqwalls.com/wallpapers/waves-4k-wm.jpg",
+    // your_img_url: "https://images.hdqwalls.com/wallpapers/waves-4k-wm.jpg",
+    // your_img_url:"https://static.vecteezy.com/system/resources/previews/027/896/244/non_2x/lo-fi-design-bw-cute-kawaii-lo-fi-backgrounds-set-park-swimming-pool-monochromatic-2d-cartoon-landscape-illustrations-lofi-aesthetic-wallpapers-desktop-japanese-anime-scenery-dreamy-vibes-vector.jpg"
+    your_img_url:"https://storage.ko-fi.com/cdn/useruploads/post/0a340988-1a6c-46bf-a17f-96c926d246ae_cloudshoritzonalwm.png",
 };
 
 const dataabout = {
@@ -86,32 +88,38 @@ const tools = [
 
 const dataportfolio = [
     {
-        img: "https://static.vecteezy.com/system/resources/previews/012/581/533/non_2x/black-and-white-notebook-01-vector.jpg",
+        // img: "https://static.vecteezy.com/system/resources/previews/012/581/533/non_2x/black-and-white-notebook-01-vector.jpg",
+        img: "https://static.vecteezy.com/ti/vetor-gratis/p3/7816869-vector-pixel-art-book-icon-for-game-development-gratis-vetor.jpg",
         description: "Virtual notebook website fully powered by OpenAI (Since website is unsecured right now, please refrain from putting in sensitive information.)",
         link: "http://54.70.119.142:3000/"
     },
     {
-        img: "https://i.pinimg.com/736x/98/92/e8/9892e8d61dc1707bc039bc9fc602b333.jpg",
+        // img:"https://static.vecteezy.com/system/resources/previews/005/749/511/original/propelier-aircraft-retro-vintage-small-plane-single-engine-contour-outline-line-icon-black-color-illustration-image-thin-flat-style-vector.jpg",
+        img:"https://static.vecteezy.com/system/resources/previews/007/530/656/original/pixel-art-airplane-artwork-vector.jpg",
         description: "Interactable website built using React & Three.js",
         link: "https://verdant-cupcake-e6a27a.netlify.app/"
     },
     {
-        img: "https://png.pngtree.com/png-clipart/20230923/original/pngtree-computer-cloud-theme-white-background-with-set-of-black-icons-vector-png-image_12843146.png",
+        // img: "https://static.vecteezy.com/system/resources/previews/024/672/801/original/weather-forecast-outline-web-icon-set-thin-line-icons-collection-editable-stroke-vector.jpg",
+        img:"https://media.istockphoto.com/id/1015350564/vector/pixel-art-vector-weather-application-icons-set.jpg?s=612x612&w=0&k=20&c=OVdCKUnMuuaD9OuFwU0UO3N5pbClY70s42gOvysdD-I=",
         description: "An android application, designed to deliver daily weather forecasts to users. The users can search weather forecast for 5 days with data every 3 hours by geographic coordinates.",
         link: "https://github.com/toby12352/OpenWeather",
     },
     {
-        img: "https://img.freepik.com/premium-vector/cloud-database-hand-drawn-outline-doodle-icon-cloud-computing-cloud-storage-computing-platform-concept_107173-17575.jpg",
+        // img: "https://thumbs.dreamstime.com/b/business-woman-costume-making-presentation-explaining-charts-board-audience-conference-hall-seminar-lecture-ve-126392865.jpg",
+        img:"https://community.gamedev.tv/uploads/db2322/original/3X/0/a/0a86cbc5e12df24cb8c1ae277c4332a2d2a95ad4.png",
         description: "Tarpaulin Restful API is a lightweight course management tool aimed at enhancing database security and scalability using cutting-edge technologies.",
         link: "https://github.com/toby12352/Tarpaulin-Restful-API",
     },
     {
-        img: "https://static.vecteezy.com/system/resources/previews/027/739/083/original/simple-film-camera-icon-movie-camera-vector.jpg",
+        // img: "https://static.vecteezy.com/system/resources/previews/027/739/083/original/simple-film-camera-icon-movie-camera-vector.jpg",
+        img:"https://img.freepik.com/premium-vector/take-board-with-pixel-art-style_475147-252.jpg",
         description: "An android application that provides users with trending rich movie and series data in a collaborative, team-oriented environment.",
         link: "https://github.com/toby12352/Eivom",
     },
     {
-        img: "https://img.freepik.com/premium-vector/thin-line-teamwork-icon-like-virtual-webinar-chatroom-simple-outline-trend-modern-thought-logotype-graphic-lineart-stroke-art-design-isolated-white-concept-three-people-with-speechbubble_995545-40.jpg?w=2000",
+        // img: "https://img.freepik.com/premium-vector/thin-line-teamwork-icon-like-virtual-webinar-chatroom-simple-outline-trend-modern-thought-logotype-graphic-lineart-stroke-art-design-isolated-white-concept-three-people-with-speechbubble_995545-40.jpg?w=2000",
+        img:"https://static.vecteezy.com/system/resources/previews/007/581/530/original/speech-bubble-place-for-text-boxes-with-pixel-art-illustration-free-vector.jpg",
         description: "A simple groupchatroom for every users. No need to sign up!",
         link: "https://github.com/toby12352/react-chatroom"
     }
